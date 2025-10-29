@@ -1,0 +1,19 @@
+{
+    "function": "bin.lightgbm_.main",
+    "gpus": [
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB",
+        "NVIDIA A100-SXM4-80GB"
+    ],
+    "scores": {
+        "train": 0.8776103489244241,
+        "val": 0.47622335462812504,
+        "test": 0.4510027484261425
+    },
+    "time": "0:00:01.395863"
+}

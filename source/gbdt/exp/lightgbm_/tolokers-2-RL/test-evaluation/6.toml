@@ -1,0 +1,23 @@
+seed = 6
+
+[data]
+seed = 0
+cache = false
+path = ":data/tolokers-2-RL"
+num_policy = "__null__"
+cat_policy = "__null__"
+y_policy = "__null__"
+
+[model]
+n_estimators = 4000
+n_jobs = 4
+feature_fraction = 0.7851672587916977
+lambda_l2 = 0.5496858500063198
+learning_rate = 0.04608069621570309
+num_leaves = 722
+min_sum_hessian_in_leaf = 0.5161370091161909
+bagging_fraction = 0.7856279100988931
+
+[fit]
+early_stopping_rounds = 1000
+verbose = true
